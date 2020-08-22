@@ -1,0 +1,108 @@
+body {
+  font-family: 'Baloo Da 2', cursive;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-size: 50px;
+  margin: 0;
+}
+navbar {
+  font-family: 'Baloo Da 2', cursive;
+}
+a {
+  text-decoration: none;
+}
+
+label {
+  display: block;
+}
+
+nav a {
+  display: inline-block;
+  margin: 1em;
+  font-family: 'Baloo Da 2', cursive;
+}
+
+form div {
+  margin: 1em;
+  display: inline-block;
+}
+
+.homeview {
+  display: flex;
+  flex-direction: row;
+}
+
+#save-button {
+  float: right;
+}
+
+/* .modal {
+  display : none;
+  background-color: chocolate;
+  position: fixed;
+  z-index: 110;
+
+} */
+
+.modal {
+  position: fixed;
+  z-index: 1;
+  /* width: 100%;
+  height: 100%; */
+  /* background-color: rgba(0, 0, 0, 0.25); */
+}
+
+.modal_content {
+  background-color: chocolate;
+  position: absolute;
+  /* top: 20%;
+  left: 30%;
+  width: 40%;
+  padding: 20px;
+  border-radius: 5px; */
+  border: 2px solid black;
+}
+
+.close {
+  color: Black;
+  float: right;
+}
+
+.close:hover {
+  color: cyan;
+  cursor: pointer;
+}
+
+canvas {
+  border: solid 2px #4f6d7a;
+}
+
+#save-bar {
+  display: flex;
+  justify-content: center;
+  /* align-content: center; */
+}
+
+#my-canvas {
+  /* background-color: hotpink; */
+  width: 100%;
+  height: 100%;
+}
+
+.canvas-size {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#draw-button {
+  color: #4f6d7a;
+}
+
+#user-name {
+  color: #4f6d7a;
+  font-size: 200%;
+}
